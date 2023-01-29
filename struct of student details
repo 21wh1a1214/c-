@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+struct student
+{
+    string name;
+    string rollno;
+    char grade;
+};
+int main()
+{
+    student s1;
+    cout<<"enter name:";
+    cin>>s1.name;
+    cout<<"enter rollno:";
+    cin>>s1.rollno;
+    cout<<"enter grade:";
+    cin>>s1.grade;
+    cout<<"Information of Student:"<<endl;
+    cout<<"Name:"<< s1.name<<endl;
+    cout<<"Rollno:"<<s1.rollno<<endl;
+    cout<<"Grade:"<<s1.grade<<endl;
+    return 0;
+}
